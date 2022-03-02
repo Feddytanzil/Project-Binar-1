@@ -39,7 +39,6 @@ body{
     display: inline-block;
     text-decoration: underline;
 }
-
 /* Banner */
 .banner {
     background-image: url('images/banner.jpg');
@@ -64,4 +63,27 @@ body{
     color: #595959;
     font-size: 20px;
     margin-top: 8px;
+}
+
+/* Category */
+.category {
+    margin-top: 32px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-item {
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgb(34 34 34 / 15%);
+    color: #222222;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.category-item:hover {
+    background-color: #77287d;
+    color: #ffffff;
 }
