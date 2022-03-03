@@ -87,3 +87,36 @@ body{
     background-color: #77287d;
     color: #ffffff;
 }
+
+/* Contact Us */
+.contact-us {
+    margin-top: 56px;
+}
+
+.contact-input {
+    display: block;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    width: 400px;
+}
+
+@media (max-width: 575px) {
+    .contact-input {
+        width: 100%;
+    }
+}
+
+.contact-button {
+    background-color: #77287d;
+    border: none;
+    color: #ffffff;
+    display: block;
+    padding: 8px 16px;
+    width: 400px;
+}
+
+@media (max-width: 575px) {
+    .contact-button {
+        width: 100%;
+    }
+}
